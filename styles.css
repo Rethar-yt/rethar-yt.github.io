@@ -3,9 +3,8 @@ body {
   color:white;
 }
 .container {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  height: 100vh;
+  text-align: centre;
+}
+img, h1, p {
+  display: inline-block;
 }
