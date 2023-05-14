@@ -2,9 +2,16 @@ body {
   background-color: black;
   color:white;
 }
+
 .container {
-  text-align: centre;
+  text-align: center;
 }
-img, h1, p {
+
+img {
+  display: block;
+  margin: 0 auto;
+}
+
+h1, p {
   display: inline-block;
 }
