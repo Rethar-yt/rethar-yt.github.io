@@ -1,14 +1,128 @@
 body {
-  background-color: black;
+  background-color: rgb(34, 33, 33);
   color: white;
+  margin: 0px;
+  padding-bottom: 50px;
+  font-family: Verdana;
+  background-image: url("https://github.com/Rethar-yt/rethar-yt.github.io/blob/main/docs/night_starry_sky_mountains_162237_3840x2400.jpg?raw=true"); 
+  background-size: cover;
+  background-repeat: no-repeat;
 }
-.container {
-  text-align: center;
+
+nav {
+  background-color: #070707;
+  overflow: hidden;
+  font-size: 10px;
+  box-sizing: border-box;
 }
-img.center {
+nav img.logo {
+  float: left;
+  padding: 15px;
+  width: 130px;
+  height: 60px;
+}
+
+nav ul {
+  margin: 0px;
+  padding: 10px;
+  list-style-type: none;
+  text-align: right;
+  line-height: 50px;
+}
+
+nav li {
+  display: inline-block;
+  margin-right: 20px;
+}
+
+nav ul li a {
   display: block;
-  margin-left: auto;
-  margin-right: auto;
+  color: rgb(250, 248, 248);
+  text-align: center;
+  padding: 10px 16px;
+  text-decoration: none;
+  border-radius: 5px;
 }
+
+nav ul li a:hover {
+  background-color: #14b492;
+  line-height: 24px;
+}
+
+nav a {
+  display: block;
+  color: rgb(250, 248, 248);
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+nav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+footer {
+  background-color: #070707;
+  color: #fff;
+  padding: 10px 0px;
+  font-size: 10px;
+  margin-top: 80px;
+}
+
+.footer-container {
+  text-align: center;
+  max-width: 600px;
+  margin: 0 auto;
+  }
+  
+  .footer-container p {
+  margin: 0px;
+  }
+  
+  .welcome-section {
+  display: flex;
+  align-items: center;
+  padding-left: 20px;
+  }
+  
+  .welcome-message {
+  flex: 1;
+  padding-right: 20px;
+  text-align: center;
+  }
+  
+  h2 {
+  font-size: 24px;
+  margin-bottom: 10px;
+  }
+  
+  .description {
+  font-size: 10px;
+  }
+  
+  .welcome-message p {
+    font-size: 14px;
+    padding-left: 80px;
+    padding-right: 80px;
+    padding-top: 10px;
+  }
+  
+  .welcome-message h2 {
+    padding-top: 20px;
+    font-size: 24px;
+  }
+  .social-link {
+    display: inline-block;
+    margin-left: 10px;
+  }
+  
+  .social-link img {
+    width: 25px;
+    height: 25px;
+  }
+  a {
+    color: #14b492; 
+  }
     
 
