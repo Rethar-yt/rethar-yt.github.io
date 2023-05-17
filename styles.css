@@ -6,7 +6,7 @@ body {
   font-family: Verdana;
   background-image: url("https://github.com/Rethar-yt/rethar-yt.github.io/blob/main/docs/night_starry_sky_mountains_162237_3840x2400.jpg?raw=true"); 
   background-size: cover;
-  background-repeat: no-repeat;
+  background-repeat: repeat-x;
 }
 
 nav {
@@ -127,5 +127,11 @@ footer {
 .game-title {
   font-size: 18px;
 }
-    
+  
+.container {
+  min-height: 100vh; /* Set the container minimum height to 100% of the viewport height */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
 
