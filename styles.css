@@ -1,29 +1,28 @@
 body {
-  background-color: rgb(34, 33, 33);
-  color: white;
-  margin: 0px;
-  padding-bottom: 50px;
-  font-family: Verdana;
-  background-image: url("https://github.com/Rethar-yt/rethar-yt.github.io/blob/main/docs/night_starry_sky_mountains_162237_3840x2400.jpg?raw=true"); 
-  background-size: cover;
-  background-repeat: repeat-x;
+  background-color: rgb(34, 33, 33); /* Background color for the body */
+  color: white; /* Text color */
+  margin: 0; /* Remove default margin */
+  padding-bottom: 0px; /* Bottom padding */
+  font-family: Verdana; /* Font family for the text */
+  background-image: url("https://raw.githubusercontent.com/Rethar-yt/rethar-yt.github.io/21f62ba6193c77154a8edfaba9b9242a91c36940/docs/229056-open-laptop-on-desk-displaying-programming-code-ne.jpg"); /* Background image URL */
+  background-size: cover; /* Scale the background image to cover the entire body */
+  background-repeat: repeat-x; /* Repeat the background image along the horizontal axis */
 }
 
 nav {
-  background-color: #070707;
+  background-color: #070707; /* Background color for the navigation bar */
   overflow: hidden;
-  font-size: 10px;
+  font-size: 10px; /* Font size for the navigation bar */
   box-sizing: border-box;
 }
+
 nav img.logo {
-  float: left;
-  padding: 15px;
-  width: 130px;
-  height: 60px;
+  height: auto;
+  padding: 5px;
 }
 
 nav ul {
-  margin: 0px;
+  margin: 0;
   padding: 10px;
   list-style-type: none;
   text-align: right;
@@ -63,10 +62,10 @@ nav a:hover {
 }
 
 footer {
-  background-color: #070707;
-  color: #fff;
-  padding: 10px 0px;
-  font-size: 10px;
+  background-color: #070707; /* Background color for the footer */
+  color: #fff; /* Text color for the footer */
+  padding: 10px 0;
+  font-size: 10px; /* Font size for the footer */
   margin-top: 80px;
 }
 
@@ -74,64 +73,156 @@ footer {
   text-align: center;
   max-width: 600px;
   margin: 0 auto;
-  }
-  
-  .footer-container p {
-  margin: 0px;
-  }
-  
-  .welcome-section {
+}
+
+.footer-container p {
+  margin: 0;
+}
+
+.welcome-section {
   display: flex;
   align-items: center;
   padding-left: 20px;
-  }
-  
-  .welcome-message {
+}
+
+.welcome-message {
   flex: 1;
   padding-right: 20px;
   text-align: center;
-  }
-  
-  h2 {
-  font-size: 24px;
-  margin-bottom: 10px;
-  }
-  
-  .description {
-  font-size: 10px;
-  }
-  
-  .welcome-message p {
-    font-size: 12px;
-    padding-left: 80px;
-    padding-right: 80px;
-    padding-top: 10px;
-  }
-  
-  .welcome-message h2 {
-    padding-top: 20px;
-    font-size: 24px;
-  }
-  .social-link {
-    display: inline-block;
-    margin-left: 10px;
-  }
-  
-  .social-link img {
-    width: 25px;
-    height: 25px;
-  }
-  a {
-    color: #14b492; 
-  }
-.game-title {
-  font-size: 18px;
 }
-  
+
+h2 {
+  font-size: 24px; /* Font size for h2 tags */
+  margin-bottom: 10px;
+}
+
+h1, h2, p {
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8); /* Add a text shadow to h1, h2, and p tags */
+}
+
+.description {
+  font-size: 10px; /* Font size for the description */
+}
+
+.welcome-message p {
+  font-size: 12px; /* Font size for p tags inside welcome message */
+  padding-left: 80px;
+  padding-right: 80px;
+  padding-top: 10px;
+}
+
+.welcome-message h2 {
+  padding-top: 20px;
+  font-size: 24px; /* Font size for h2 tags inside welcome message */
+}
+
+.social-link {
+  display: inline-block;
+  margin-left: 10px;
+}
+
+.social-link img {
+  width: 25px;
+  height: 25px;
+}
+
+a {
+  color: #14b492; /* Default link color */
+}
+
+.project-title {
+  font-size: 18px; /* Font size for the game title */
+}
+
 .container {
-  min-height: 100vh; /* Set the container minimum height to 100% of the viewport height */
+  min-height: 100vh;
   display: flex;
   align-items: center;
   justify-content: center;
 }
+
+@media (max-width: 767px) {
+  nav img.logo {
+    height: auto;
+    display: block;
+    margin: 0 auto;
+    width: min(50vw, 200px); /* Responsive width for the logo on smaller screens */
+  }
+
+  nav ul {
+    text-align: center;
+    padding: 0;
+    margin: 10px 0;
+  }
+
+  nav ul li {
+    display: flexbox;
+    margin: 10px 0;
+    list-style-type: none;
+  }
+}
+
+@media (min-width: 768px) {
+  nav img.logo {
+    max-width: 200px;
+    height: auto;
+    float: left;
+    padding: 5px;
+    margin: 0 auto;
+  }
+
+  nav ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    text-align: right;
+    line-height: 50px;
+  }
+
+  nav ul li {
+    display: inline-block;
+    margin-right: 20px;
+  }
+}
+
+.text-box {
+  position: relative;
+  width: 100%;
+  margin-left: 0px; /* Remove left margin */
+  width: 100%;
+}
+
+.text-box::before {
+  content: '';
+  position: absolute;
+  top: 10px;
+  left: -10px;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.7); /* Adjust the opacity as needed */
+  z-index: -1;
+  margin-left: 0px;
+  width: 100%;
+}
+
+.welcome-message h2,
+.welcome-message h3,
+.welcome-message p {
+  position: relative;
+  z-index: 1;
+  color: white;
+}
+
+.tech-logos {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 5px;
+}
+
+.tech-logos img {
+  max-width: 50%;
+  height: auto;
+}
+
 
