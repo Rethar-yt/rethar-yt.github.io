@@ -4,7 +4,7 @@ body {
   margin: 0; /* Remove default margin */
   padding-bottom: 0px; /* Bottom padding */
   font-family: Verdana; /* Font family for the text */
-  background-image: url("https://raw.githubusercontent.com/Rethar-yt/rethar-yt.github.io/21f62ba6193c77154a8edfaba9b9242a91c36940/docs/229056-open-laptop-on-desk-displaying-programming-code-ne.jpg"); /* Background image URL */
+  background-image: url("https://raw.githubusercontent.com/Rethar-yt/rethar-yt.github.io/769d19b7b893cae4e63264302bdc136b3ae0c9d1/docs/bkgrnd.JPG"); /* Background image URL */
   background-size: cover; /* Scale the background image to cover the entire body */
   background-repeat: repeat-x; /* Repeat the background image along the horizontal axis */
 }
@@ -14,6 +14,7 @@ nav {
   overflow: hidden;
   font-size: 10px; /* Font size for the navigation bar */
   box-sizing: border-box;
+  box-shadow: 2px 2px 4px rgba(5, 5, 5, 0.8);
 }
 
 nav img.logo {
@@ -91,12 +92,13 @@ footer {
   text-align: center;
 }
 
-h2 {
-  font-size: 24px; /* Font size for h2 tags */
+h1, h2, h3 {
+  font-size: 30px; /* Font size for h2 tags */
   margin-bottom: 10px;
+  font-family: Verdana;
 }
 
-h1, h2, p {
+h1, h2, h3, h4, h5, h6, p, li {
   text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8); /* Add a text shadow to h1, h2, and p tags */
 }
 
@@ -105,15 +107,15 @@ h1, h2, p {
 }
 
 .welcome-message p {
-  font-size: 12px; /* Font size for p tags inside welcome message */
-  padding-left: 80px;
-  padding-right: 80px;
-  padding-top: 10px;
+  font-size: 17px; /* Font size for p tags inside welcome message */
+  padding-left: 40px;
+  padding-right: 40px;
+  padding-top: 15px;
 }
 
 .welcome-message h2 {
-  padding-top: 20px;
-  font-size: 24px; /* Font size for h2 tags inside welcome message */
+  padding-top: 5px;
+  font-size: 30px; /* Font size for h2 tags inside welcome message */
 }
 
 .social-link {
