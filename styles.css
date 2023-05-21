@@ -4,7 +4,7 @@ body {
   margin: 0; /* Remove default margin */
   padding-bottom: 0px; /* Bottom padding */
   font-family: Verdana; /* Font family for the text */
-  background-image: url("https://raw.githubusercontent.com/Rethar-yt/rethar-yt.github.io/769d19b7b893cae4e63264302bdc136b3ae0c9d1/docs/bkgrnd.JPG"); /* Background image URL */
+  background-image: url("https://raw.githubusercontent.com/Rethar-yt/rethar-yt.github.io/bfb3cb4d89685fb50f10d2dd9c375513db503d7a/docs/229056-open-laptop-on-desk-displaying-programming-code-ne.jpg"); /* Background image URL */
   background-size: cover; /* Scale the background image to cover the entire body */
   background-repeat: repeat-x; /* Repeat the background image along the horizontal axis */
 }
@@ -102,6 +102,7 @@ h1, h2, h3, h4, h5, h6, p, li {
   text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8); /* Add a text shadow to h1, h2, and p tags */
 }
 
+
 .description {
   font-size: 10px; /* Font size for the description */
 }
@@ -132,8 +133,20 @@ a {
   color: #14b492; /* Default link color */
 }
 
+
+
+.project {
+  margin-bottom: 20px; /* Add margin bottom between project sections */
+}
+
 .project-title {
-  font-size: 18px; /* Font size for the game title */
+  font-size: 18px; /* Font size for the project title */
+  color: white; /* Text color for the project title */
+  margin-top: 10px; /* Add margin top to the project title */
+}
+
+.project p {
+  margin-bottom: 10px; /* Add margin bottom to paragraphs within projects */
 }
 
 .container {
@@ -240,4 +253,3 @@ a {
   margin-top: 10px;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.7);
 }
-
