@@ -1,10 +1,14 @@
+* {
+  box-sizing: border-box;
+}
+
 body {
   background-color: rgb(34, 33, 33); /* Background color for the body */
   color: white; /* Text color */
   margin: 0; /* Remove default margin */
   padding-bottom: 0px; /* Bottom padding */
   font-family: Verdana; /* Font family for the text */
-  background-image: url("https://raw.githubusercontent.com/Rethar-yt/rethar-yt.github.io/bfb3cb4d89685fb50f10d2dd9c375513db503d7a/docs/229056-open-laptop-on-desk-displaying-programming-code-ne.jpg"); /* Background image URL */
+  background-image: url("https://raw.githubusercontent.com/Rethar-yt/rethar-yt.github.io/568e556dae6853764b91f068d2ec78a9165bba64/docs/229056-open-laptop-on-desk-displaying-programming-code-ne.jpg"); 
   background-size: cover; /* Scale the background image to cover the entire body */
   background-repeat: repeat-x; /* Repeat the background image along the horizontal axis */
 }
