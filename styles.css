@@ -223,6 +223,7 @@ a {
   z-index: -1;
   margin-left: 0px;
   width: 100%;
+  border-radius: 3px;
 }
 
 .welcome-message h2,
@@ -252,8 +253,46 @@ a {
 }
 
 .image-section img {
+  border-radius: 3px;
   width: 80%;
   height: auto;
   margin-top: 10px;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.7);
+}
+
+.scroll-top {
+  display: block;
+  color: #faf7f7;
+  border-radius: 3px;
+  border: 2px solid #04AA6D;
+  padding: 5px;
+  font-size: 15px;
+  text-align: center;
+  align-items: center;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  text-decoration: solid;
+  transition: background-color 0.3s;
+  padding-bottom: 10px;
+  margin-bottom: 10px;
+  margin-top: 10px;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8);
+  box-shadow: 2px 2px 4px rgba(5, 5, 5, 0.8);
+}
+
+.scroll-top-container {
+  margin-bottom: -60px;
+  width: 20%;
+  justify-content: center;
+  margin-left: 40%;
+}
+
+.scroll-top:hover {
+  background-color: #04AA6D;
+  color: white;
+}
+
+.scroll-top:focus,
+.scroll-top:active {
+  background-color: #04AA6D;
+  color: white;
 }
