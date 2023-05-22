@@ -23,7 +23,7 @@ nav {
 
 nav img.logo {
   height: auto;
-  padding: 5px;
+  padding: 15px;
 }
 
 nav ul {
@@ -296,3 +296,16 @@ a {
   background-color: #04AA6D;
   color: white;
 }
+
+#scroll-top-button {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  z-index: 999;
+}
+
+#scroll-top-button img {
+  width: 40px;
+  height: 40px;
+}
+
