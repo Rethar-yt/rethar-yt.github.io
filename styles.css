@@ -309,3 +309,60 @@ a {
   height: 40px;
 }
 
+/* Your existing CSS styles */
+
+/* CSS styles for the hamburger menu */
+.hamburger-menu {
+  display: none;
+  flex-direction: column;
+  justify-content: space-between;
+  cursor: pointer;
+  width: 30px;
+  height: 20px;
+  margin-right: 10px;
+  margin-bottom: 5px;
+}
+
+.hamburger-menu .line {
+  width: 100%;
+  height: 3px;
+  background-color: #fff;
+}
+
+/* Additional CSS styles for the open state of the navigation */
+nav ul.open {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: center;
+  height: 100vh;
+  position: fixed;
+  top: 0;
+  right: 0;
+  background-color: #070707;
+  z-index: 999;
+  padding: 20px;
+  width: 200px;
+  transform: translateX(100%);
+  transition: transform 0.3s ease-in-out;
+}
+
+nav ul.open li {
+  margin-bottom: 20px;
+}
+
+/* Media query for the hamburger menu on smaller screens */
+@media (max-width: 767px) {
+  nav ul {
+    display: none;
+  }
+
+  .hamburger-menu {
+    display: flex;
+  }
+
+  nav ul.open { /* Updated class name here */
+    transform: translateX(0);
+    font-size: 18px;
+  }
+}
