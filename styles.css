@@ -3,20 +3,20 @@
 }
 
 body {
-  background-color: rgb(34, 33, 33); /* Background color for the body */
-  color: white; /* Text color */
-  margin: 0; /* Remove default margin */
-  padding-bottom: 0px; /* Bottom padding */
-  font-family: Verdana; /* Font family for the text */
+  background-color: rgb(34, 33, 33); 
+  color: white; 
+  margin: 0; 
+  padding-bottom: 0px; 
+  font-family: Verdana; 
   background-image: url("https://raw.githubusercontent.com/Rethar-yt/rethar-yt.github.io/568e556dae6853764b91f068d2ec78a9165bba64/docs/229056-open-laptop-on-desk-displaying-programming-code-ne.jpg"); 
-  background-size: cover; /* Scale the background image to cover the entire body */
-  background-repeat: repeat-x; /* Repeat the background image along the horizontal axis */
+  background-size: cover; 
+  background-repeat: repeat-x; 
 }
 
 nav {
-  background-color: #070707; /* Background color for the navigation bar */
+  background-color: #070707; 
   overflow: hidden;
-  font-size: 10px; /* Font size for the navigation bar */
+  font-size: 10px; 
   box-sizing: border-box;
   box-shadow: 2px 2px 4px rgba(5, 5, 5, 0.8);
 }
@@ -67,10 +67,10 @@ nav a:hover {
 }
 
 footer {
-  background-color: #070707; /* Background color for the footer */
-  color: #fff; /* Text color for the footer */
+  background-color: #070707; 
+  color: #fff; 
   padding: 10px 0;
-  font-size: 10px; /* Font size for the footer */
+  font-size: 10px; 
   margin-top: 80px;
 }
 
@@ -103,16 +103,16 @@ h1, h2, h3 {
 }
 
 h1, h2, h3, h4, h5, h6, p, li {
-  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8); /* Add a text shadow to h1, h2, and p tags */
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8); 
 }
 
 
 .description {
-  font-size: 10px; /* Font size for the description */
+  font-size: 10px;
 }
 
 .welcome-message p {
-  font-size: 17px; /* Font size for p tags inside welcome message */
+  font-size: 17px; 
   padding-left: 40px;
   padding-right: 40px;
   padding-top: 15px;
@@ -120,7 +120,7 @@ h1, h2, h3, h4, h5, h6, p, li {
 
 .welcome-message h2 {
   padding-top: 5px;
-  font-size: 30px; /* Font size for h2 tags inside welcome message */
+  font-size: 30px; 
 }
 
 .social-link {
@@ -134,23 +134,23 @@ h1, h2, h3, h4, h5, h6, p, li {
 }
 
 a {
-  color: #14b492; /* Default link color */
+  color: #14b492; 
 }
 
 
 
 .project {
-  margin-bottom: 20px; /* Add margin bottom between project sections */
+  margin-bottom: 20px;
 }
 
 .project-title {
-  font-size: 18px; /* Font size for the project title */
-  color: white; /* Text color for the project title */
-  margin-top: 10px; /* Add margin top to the project title */
+  font-size: 18px; 
+  color: white; 
+  margin-top: 10px; 
 }
 
 .project p {
-  margin-bottom: 10px; /* Add margin bottom to paragraphs within projects */
+  margin-bottom: 10px; 
 }
 
 .container {
@@ -165,7 +165,7 @@ a {
     height: auto;
     display: block;
     margin: 0 auto;
-    width: min(50vw, 200px); /* Responsive width for the logo on smaller screens */
+    width: min(50vw, 200px); 
   }
 
   nav ul {
@@ -207,7 +207,7 @@ a {
 .text-box {
   position: relative;
   width: 100%;
-  margin-left: 0px; /* Remove left margin */
+  margin-left: 0px; 
   margin-top: 0px;
   width: 100%;
 }
@@ -219,7 +219,7 @@ a {
   left: -10px;
   right: 0;
   bottom: 0;
-  background-color: rgba(0, 0, 0, 0.7); /* Adjust the opacity as needed */
+  background-color: rgba(0, 0, 0, 0.7); 
   z-index: -1;
   margin-left: 0px;
   width: 100%;
@@ -242,7 +242,7 @@ a {
 }
 
 .tech-logos img {
-  max-width: 50%;
+  max-width: 65%;
   height: auto;
 }
 
@@ -309,9 +309,6 @@ a {
   height: 40px;
 }
 
-/* Your existing CSS styles */
-
-/* CSS styles for the hamburger menu */
 .hamburger-menu {
   display: none;
   flex-direction: column;
@@ -329,7 +326,7 @@ a {
   background-color: #fff;
 }
 
-/* Additional CSS styles for the open state of the navigation */
+
 nav ul.open {
   display: flex;
   flex-direction: column;
@@ -351,7 +348,7 @@ nav ul.open li {
   margin-bottom: 20px;
 }
 
-/* Media query for the hamburger menu on smaller screens */
+
 @media (max-width: 767px) {
   nav ul {
     display: none;
@@ -361,8 +358,15 @@ nav ul.open li {
     display: flex;
   }
 
-  nav ul.open { /* Updated class name here */
+  nav ul.open { 
     transform: translateX(0);
     font-size: 18px;
   }
+}
+
+.cv-icon img {
+  width: 100px;
+  height: auto;
+  padding-top: 10px;
+  margin-top: 20px;
 }
