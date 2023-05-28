@@ -11,11 +11,14 @@
 <img align="right" alt="Coding" width="400" src="docs/avento.gif" />
 <h3>About This Website</h3>
 <ul>
-  <li><strong>Custom Domain</strong</li>
-  <li><strong>Crafted with Visual Studio Code</strong></li>
-  <li><strong>Design work done on CoralDraw</strong></li>
-  <li><strong>HTML,CSS and .JS structured and coded by myself</strong></li>
-    <li><strong>Open to any suggestions. Feel free to contact me.</strong></li>
+  <li><strong>Custom Domain</strong.</li>
+  <li><strong>Crafted with Visual Studio Code.</strong></li>
+  <li><strong>Design work done on CoralDraw.</strong></li>
+  <li><strong>HTML,CSS and .JS structured and coded by myself.</strong></li>
+  <li><strong>Responsive Design.</strong></li>
+  <li><strong>Hamburger Menu.</strong></li>
+  <li><strong>Scroll top, Slides, Cv and many more feautures.</strong></li>
+  <li><strong>Open to any suggestions. Feel free to contact me.</strong></li>
   </ul>
 
 <h3>Contact Me</h3>
