@@ -1,93 +1,246 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <title>My Projects</title>
+
+<!--Hamburger-menu/start-->
+<input type="checkbox" id="navcheck">
+<div class="nav-btn">
+    <label htmlfor="navcheck">
+        <span></span>
+        <span></span>
+        <span></span>
+    </label>
+</div>
+<!--Hamburger-menu/end-->
+
+<!--Header start-->
+<header class="header">
+  <title>NeptuneLabs-Projects</title>
     <link rel="stylesheet" href="styles.css">
+    <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  </head>
-  <body>
-    <nav>
-      <img class="logo" src="https://raw.githubusercontent.com/Rethar-yt/rethar-yt.github.io/a8610eb602030df39896274658438b93ce048f01/docs/logoalt2.png" alt="logo">
-      <div class="hamburger-menu">
-        <div class="line"></div>
-        <div class="line"></div>
-        <div class="line"></div>
-      </div>
-      <ul>
-        <li><a href="index.html">HOME</a></li>
-        <li><a href="about.html">ABOUT</a></li>
-        <li><a href="projects.html">PROJECTS</a></li>
-        <li><a href="contact.html">CONTACT</a></li>
-      </ul>
+    <nav class="navbar">
+        <!--Logo-->
+        <h1>
+          <img src="https://raw.githubusercontent.com/Rethar-yt/rethar-yt.github.io/6c141a7abd8a6cc20962242dbfa3ca5d4dbc5f71/docs/NeptuneLabs.png" class="nav-logo">
+        </h1>
+        <!--Logo-->
+        <!--Nav/Navigation bar-->
+        <ul class="nav-menu">
+            <li class="nav-item">
+                <a href="index.html" class="nav-link">Home</a>
+            </li>
+            <li class="nav-item">
+                <a href="about.html" class="nav-link">About</a>
+            </li>
+            <li class="nav-item">
+                <a href="services.html" class="nav-link">Services</a>
+            </li>
+            <li class="nav-item">
+              <a href="Projects.html" class="nav-link">Projects</a>
+          </li>
+            <li class="nav-item">
+                <a href="Contact.html" class="nav-link">Contact</a>
+            </li>
+        </ul>
+        <!--Nav/Navigation bar-->
     </nav>
-    <div class="image-section">
-      <img src="https://github.com/Rethar-yt/rethar-yt.github.io/blob/main/docs/converted.gif?raw=true">
+</header>
+<!--Header Start-->
+<!--Backdrop Start (mobile menu only)-->
+<div class="backdrop"></div>
+<!--Backdrop end (mobile menu only)-->
+<body>
+  <div class="slideshow-container">
+
+    <!-- Full-width images with number & caption/text -->
+    <div class="mySlides fade">
+      
+      <img src="https://github.com/Rethar-yt/rethar-yt.github.io/blob/main/docs/slide/4.JPG?raw=true" style="width:100%">
+      <div class="text"><strong>Python Programming</strong></div>
     </div>
-    <main>
-    <div class="container">
-      <div class="welcome-section">
-        <div class="welcome-message text-box">
-          <h2>My <span style="color: #14b492;">Projects</span>.</h2>
-
-<div class="project">
-  <h4 class="project-title">1.Universal VAT Tax Sales Calculator</h4>
-  <p>This is a command-line program that allows users to calculate the value-added tax (VAT) or sales tax on a given amount. Users can also add or deduct the tax amount from the entered amount.</p>
-  <p>Check out the code on GitHub: <a href="https://github.com/Rethar-yt/Projects/tree/main/Uni_Vat_Tax_Calculator">Universal VAT/Sales Tax Calculator</a></p>
-  <div class="project-image">
-    <img src="https://github.com/Rethar-yt/rethar-yt.github.io/blob/main/docs/vatcal.png?raw=true" width="300" height="auto" alt="Project Image ROA">
+  
+    <div class="mySlides fade">
+      
+      <img src="https://github.com/Rethar-yt/rethar-yt.github.io/blob/main/docs/slide/4.JPG?raw=true" style="width:100%">
+      <div class="text"><strong>Website development</strong></div>
+    </div>
+  
+    <div class="mySlides fade">
+      
+      <img src="https://github.com/Rethar-yt/rethar-yt.github.io/blob/main/docs/slide/4.JPG?raw=true" style="width:100%">
+      <div class="text"><strong>Database Construction</strong></div>
+    </div>
+  
+    <!-- Next & previous (buttons) -->
+    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+    <a class="next" onclick="plusSlides(1)">&#10095;</a>
   </div>
-</div>
-
-<div class="project">
-  <h4 class="project-title">2.Website for a client</h4>
-  <p>Another humble showcase of my passion for web development. Again, crafted with care using Html, Css and Javascript. It reflects my journey and dedication to creating meaningful online experiences. The site also features my skills in design using CoralDraw to make the logo for ARC. The site has features like mobile responsive web design, hamburger menu, scroll to top fade button and many more. </p>
-  <p>Check out the website here: <a href="https://arc-sa.africa/">ARC - African Resource Counsel</a></p>
-  <div class="project-image">
-    <img src="https://github.com/Rethar-yt/rethar-yt.github.io/blob/main/docs/arc.png?raw=true" width="300" height="auto" alt="Project Image ARC">
+  <br>
+  
+  <!-- The dots below slide -->
+  <div style="text-align:center">
+    <span class="dot" onclick="currentSlide(1)"></span>
+    <span class="dot" onclick="currentSlide(2)"></span>
+    <span class="dot" onclick="currentSlide(3)"></span>
   </div>
 
-<div class="project">
-  <h4 class="project-title">3.Command Line Game</h4>
-  <p>This is a command line game where the player has 30 seconds to guess as many pronouns as possible. The cards are generated through various techniques in Python namely lists, dictionaries, and opening a file with the `open` function. The program also features a timer function and a dice roll function. Follow the link for more details.</p>
-  <p>Check out the code on GitHub: <a href="https://github.com/Rethar-yt/Projects/tree/main/30_Seconds_Style_Game">30 Seconds Cmd Game</a></p>
-  <div class="project-image">
-    <img src="https://github.com/Rethar-yt/rethar-yt.github.io/blob/main/docs/30secs.png?raw=true" width="300" height="auto" alt="Project Image ROA">
-  </div>
-</div>
-
-<div class="project">
-  <h4 class="project-title">4.My Personal Website</h4>
-  <p>A humble showcase of my passion for web development. Crafted with care using Html, Css and Javascript. It reflects my journey and dedication to creating meaningful online experiences. The site has features like mobile responsive web design, hamburger menu, scroll to top fade button and many more. </p>
-  <p>Check out the HTML and CSS code: <a href="https://github.com/Rethar-yt/rethar-yt.github.io">My Personal Website</a></p>
-  <div class="project-image">
-    <img src="https://github.com/Rethar-yt/rethar-yt.github.io/blob/main/docs/roa.png?raw=true" width="300" height="auto" alt="Project Image ROA">
-  </div>
-</div>
-
-<div class="cv-icon">  
-  <a href="https://drive.google.com/file/d/1yzaBjP_NkzK9py6kF1OXpYTmFV0SUe9S/view?usp=sharing" download><img src="https://github.com/Rethar-yt/rethar-yt.github.io/blob/main/docs/cv_icon.png?raw=true" alt="CV"></a>
-  <p><a href="https://drive.google.com/file/d/1QuLukGF20Q_waEevLx5qCsTDAQFyGf6N/view?usp=drive_link" download style="color: #f7d206">Click to download CV-Resume</a></p>
-</div>
-</div>
+  <div class="welcome-section">
+    <div class="welcome-message text-box">
+      <h2>Sample <span style="color: #263849;">Projects</span>.</h2>
+      <div>
+        <hr>
+        <h3>1.Python Program</h3>
+          <p>This command-line program allows users to calculate the value-added tax (VAT) or sales tax on a given amount. Users can also add or deduct the tax amount from the entered amount, providing flexibility for different tax scenarios.</p>
+          <h3>Features:</h3>
+          <ul>
+            <li>Calculate VAT or sales tax based on a specified percentage.</li>
+            <li>Add the tax amount to the entered amount to get the inclusive total.</li>
+            <li>Deduct the tax amount from the entered amount to get the exclusive total.</li>
+          </ul>
+          <p><strong>Skills Demonstrated:</strong> Object-Oriented Programming (OOP), Python syntax and semantics, user input validation, basic arithmetic calculations, command-line interface, exception handling, time module usage, string manipulation and formatting, looping and conditional statements.</p>
+          <p>A graphical user interface (GUI) version of this program is also available. It provides a user-friendly interface for easy input and interaction. You can find the GUI version on my GitHub repository, along with the command-line version and other projects.</p>
+        <p>Check out the code on GitHub: <a href="https://github.com/Rethar-yt/Projects/tree/main/Uni_Vat_Tax_Calculator">Universal VAT/Sales Tax Calculator</a></p>
+        <div>
+          <img src="https://github.com/Rethar-yt/rethar-yt.github.io/blob/main/docs/vatcal.png?raw=true" width="300" height="auto" alt="Project Image ROA">
+        </div>
+      </div>
+      
+      <div>
+        <hr>
+        <h3>2.Website Project</h3>
+        <p>Embarking on a web development project, I have poured my passion and expertise into crafting an exceptional online experience. This meticulously designed website is powered by HTML, CSS, and JavaScript, reflecting my unwavering dedication to creating impactful digital solutions.</p>
+        <p>Key highlights of the site include:</p>
+        <ul>
+          <li>Impeccable mobile responsiveness, ensuring seamless access and optimal viewing across various devices and screen sizes.</li>
+          <li>A captivating logo, expertly designed using CorelDRAW, which showcases my artistic flair and proficiency in graphic design.</li>
+          <li>An intuitive and user-friendly interface, featuring a sleek hamburger menu for effortless navigation, especially on smaller screens.</li>
+          <li>A convenient scroll-to-top fade button that facilitates smooth browsing by enabling users to effortlessly return to the top of the page.</li>
+          <li>And a range of other thoughtfully incorporated features that elevate the overall user experience and engagement.</li>
+        </ul>
+        
+        <p><strong>Demonstrated Skills:</strong> HTML, CSS, JavaScript, responsive web design, graphic design utilizing CorelDRAW, user interface design, seamless navigation implementation, scroll-to-top functionality.</p>
+        <p>Check out the website here: <a href="https://arc-sa.africa/">ARC - African Resource Counsel</a></p>
+        <div>
+          <img src="https://github.com/Rethar-yt/rethar-yt.github.io/blob/main/docs/arc.png?raw=true" width="300" height="auto" alt="Project Image ARC">
+        </div>
+        </div>
+      
+      <div>
+        <hr>
+        <h3>3.Python Program</h3>
+        <p>This is a command line game where the player has 30 seconds to guess as many pronouns as possible. The cards are generated through various techniques in Python namely lists, dictionaries, and opening a file with the `open` function. The program also features a timer function and a dice roll function. Follow the link for more details.</p>
+        <p>Features:</p>
+        <ul>
+          <li>Dice rolling to determine player position on the board.</li>
+          <li>Different colored cards representing various difficulty levels: yellow (easy), blue (easy to medium), and red (medium
+            to hard).</li>
+          <li>Randomly generated items based on the card's difficulty level.</li>
+          <li>Timer function with a countdown of 30 seconds for each card.</li>
+          <li>Option to quit the game at any time.</li>
+        </ul>
+        <p>Skills Demonstrated:</p>
+        <p>Python programming language, Usage of modules: time and random, Object-oriented programming (OOP) principles, Input
+          validation and error handling, File handling for reading card data from a text file, Looping and conditional statements,
+          String manipulation and formatting.</p>
+        <p>Check out the code on GitHub: <a href="https://github.com/Rethar-yt/Projects/tree/main/30_Seconds_Style_Game">30 Seconds Cmd Game</a></p>
+        <div>
+          <img src="https://github.com/Rethar-yt/rethar-yt.github.io/blob/main/docs/30secs.png?raw=true" width="300" height="auto" alt="Project Image ROA">
+        </div>
+      </div>
+      
+      <div>
+        <hr>
+        <h3>4.Website Project</h3>
+        <p>A humble showcase of my passion for web development. Crafted with care using Html, Css and Javascript. It reflects my journey and dedication to creating meaningful online experiences.</p>
+        <p>Key highlights of the site include:</p>
+      <ul>
+        <li>Impeccable mobile responsiveness, ensuring seamless access and optimal viewing across various devices and screen sizes.</li>
+        <li>A captivating logo, expertly designed using CorelDRAW, which showcases my artistic flair and proficiency in graphic design.</li>
+        <li>An intuitive and user-friendly interface, featuring a sleek hamburger menu for effortless navigation, especially on smaller screens.</li>
+        <li>A convenient scroll-to-top fade button that facilitates smooth browsing by enabling users to effortlessly return to the top of the page.</li>
+        <li>An engaging image slide showcasing visually stunning content, captivating the attention of visitors and enhancing the overall visual appeal of the site.</li>
+        <li>A creative footer design that serves as a delightful finishing touch, incorporating unique elements that complement the site's aesthetic and reinforce a cohesive user experience.</li>
+        <li>And a range of other thoughtfully incorporated features that elevate the overall user experience and engagement.</li>
+      </ul>
+      <p><strong>Demonstrated Skills:</strong> HTML, CSS, JavaScript, responsive web design, graphic design utilizing CorelDRAW, user interface design, seamless navigation implementation, scroll-to-top functionality, revolution slider.</p>
+        <p>Check out the HTML and CSS code: <a href="https://github.com/Rethar-yt/rethar-yt.github.io">My Personal Website</a></p>
+        <div>
+          <img src="https://github.com/Rethar-yt/rethar-yt.github.io/blob/main/docs/roa.png?raw=true" width="300" height="auto" alt="Project Image ROA">
+        </div>
+          </div>
       </div>
     </div>
-  </main>
-  <div class="scroll-top-container">
-    <a id="scroll-top-button" href="#top">
-      <img src="https://raw.githubusercontent.com/Rethar-yt/rethar-yt.github.io/d9f01d960264aaf3de7f62d6de572b9b84375fd4/docs/top.png" alt="Scroll Top">
-    </a>
+</body>
+
+<footer>
+  <div class="row primary">
+    <div class="column about">
+  
+    <h3>
+      <img src="https://raw.githubusercontent.com/Rethar-yt/rethar-yt.github.io/6c141a7abd8a6cc20962242dbfa3ca5d4dbc5f71/docs/NeptuneLabs.png" class="footer-logo">
+    </h3>
+  
+     <p>
+      Solutions Designed with Code, Crafted for Success.
+    </p>
+  
+    <div class="social">
+      <i class="github">
+        <a href="https://github.com/Rethar-yt"><img src="https://raw.githubusercontent.com/Rethar-yt/rethar-yt.github.io/5a6ea6cc55ab157dee998a45950a9c312af2ac09/docs/social%20icons/github.png"></a>
+      </i>
+      <i class="linkdn">
+        <a href="https://za.linkedin.com/in/rethar-osman-abdullah"> <img src="https://raw.githubusercontent.com/Rethar-yt/rethar-yt.github.io/5a6ea6cc55ab157dee998a45950a9c312af2ac09/docs/social%20icons/linkdn.png"></a>
+      </i>
+    </div>
   </div>
-    <footer>
-      <div class="tech-logos">
-        <img src="https://raw.githubusercontent.com/Rethar-yt/rethar-yt.github.io/6a75fe065d7a1a7b6d90fd921fd92f82158e5eb6/docs/tech%20logos.png">
-      </div>
-      <div class="footer-container">
-        <p>&copy; 2023 ROA Designs. Powered by Github</p>
-      </div>
-    </footer>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha2/js/bootstrap.bundle.min.js"></script>
+  
+  <div class="column links">
+  <p>Quick Links</p>
+  
+   <ul>
+  
+    <li>
+     <a href="faq.html">F.A.Q</a>
+    </li>
+    <li>
+     <a href="terms.html">Terms Of Service</a>
+    </li>
+    <li>
+     <a href="cv.html">CV-Resume</a>
+    </li>
+   </ul>
+  
+  </div>
+  
+  <div class="column subscribe">
+   <p>Credentials & Contact Info</p>
+    <div>
+      <a href="https://drive.google.com/file/d/1kAN5RwTN3h11BEovRnXhhFSDSbUI4CbL/view?usp=sharing">
+        <button>Resume PDF</button>
+      </a>      
+     
+     <button>
+      <a href="mailto:retharyt@gmail.com">Send Email</a>
+    </button>
+    
+    </div>
+  
+  </div>
+  
+  </div>
+  
+  <div class="row copyright">
+    <div class="footer-menu">
+  
+    <a href="index.html">Home</a>
+    <a href="about.html">About</a>
+    <a href="services.html">Services</a>
+    <a href="projects.html">Projects</a>
+    <a href="contact.html">Contact</a>
+    </div>
+     <p>Copyright &copy; 2023 NeptuneLabs by ROA</p>
+  </div>
+  </footer>
     <script src="script.js"></script>
     <script src="script2.js"></script>
-  </body>
 </html>
-
