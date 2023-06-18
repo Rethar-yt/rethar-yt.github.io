@@ -1,58 +1,179 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <title>Rethar Home-Index</title>
+
+<!--Hamburger-menu/start-->
+<input type="checkbox" id="navcheck">
+<div class="nav-btn">
+    <label htmlfor="navcheck">
+        <span></span>
+        <span></span>
+        <span></span>
+    </label>
+</div>
+<!--Hamburger-menu/end-->
+
+<!--Header start-->
+<header class="header">
+  <title>NeptuneLabs Home-Index</title>
     <link rel="stylesheet" href="styles.css">
+    <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  </head>
-  <body>
-    <nav>
-      <img class="logo" src="https://raw.githubusercontent.com/Rethar-yt/rethar-yt.github.io/a8610eb602030df39896274658438b93ce048f01/docs/logoalt2.png" alt="logo">
-      <div class="hamburger-menu">
-        <div class="line"></div>
-        <div class="line"></div>
-        <div class="line"></div>
-      </div>
-      <ul>
-        <li><a href="index.html">HOME</a></li>
-        <li><a href="about.html">ABOUT</a></li>
-        <li><a href="projects.html">PROJECTS</a></li>
-        <li><a href="contact.html">CONTACT</a></li>
-      </ul>
+    <nav class="navbar">
+        <!--Logo-->
+        <h1>
+          <img src="https://raw.githubusercontent.com/Rethar-yt/rethar-yt.github.io/6c141a7abd8a6cc20962242dbfa3ca5d4dbc5f71/docs/NeptuneLabs.png" class="nav-logo">
+        </h1>
+        <!--Logo-->
+        <!--Nav/Navigation bar-->
+        <ul class="nav-menu">
+            <li class="nav-item">
+                <a href="index.html" class="nav-link">Home</a>
+            </li>
+            <li class="nav-item">
+                <a href="about.html" class="nav-link">About</a>
+            </li>
+            <li class="nav-item">
+                <a href="services.html" class="nav-link">Services</a>
+            </li>
+            <li class="nav-item">
+              <a href="Projects.html" class="nav-link">Projects</a>
+          </li>
+            <li class="nav-item">
+                <a href="Contact.html" class="nav-link">Contact</a>
+            </li>
+        </ul>
+        <!--Nav/Navigation bar-->
     </nav>
-    <div class="image-section">
-      <img src="https://github.com/Rethar-yt/rethar-yt.github.io/blob/main/docs/converted.gif?raw=true">
+</header>
+<!--Header Start-->
+<!--Backdrop Start (mobile menu only)-->
+<div class="backdrop"></div>
+<!--Backdrop end (mobile menu only)-->
+<body>
+  <div class="slideshow-container">
+
+    <!-- Full-width images with number & caption/text -->
+    <div class="mySlides fade">
+      
+      <img src="https://github.com/Rethar-yt/rethar-yt.github.io/blob/main/docs/slide/4.JPG?raw=true" style="width:100%">
+      <div class="text"><strong>Python Programming</strong></div>
     </div>
-    <div class="container">
-      <div class="welcome-section">
-        <div class="welcome-message text-box">
-          <h2>I'm <span style="color: #14b492;">Rethar</span>. A Software Developer.</h2>
-          <h3>Specializing in Python and Back-end Development.</h3>
-          <p>I am a dedicated software developer with a passion for creating efficient and innovative solutions. Currently, I am in the process of completing a professional certification in backend development with Meta, which will further enhance my skills and expertise in this field.</p>
-          <p>I have a strong foundation in programming, having successfully completed the specialization in Python course offered by the University of Michigan online. This comprehensive program has equipped me with a solid understanding of programming principles and best practices.</p>
-          <p>Through this website, I aim to showcase my projects, share my knowledge, and connect with like-minded individuals in the software development community. I invite you to explore and discover the work I have done and the insights I have gained throughout my journey.</p>
-          <div class="cv-icon">  
-            <a href="https://drive.google.com/file/d/1QuLukGF20Q_waEevLx5qCsTDAQFyGf6N/view?usp=drive_link" download><img src="https://github.com/Rethar-yt/rethar-yt.github.io/blob/main/docs/cv_icon.png?raw=true" alt="CV"></a>
-          <p><a href="https://drive.google.com/file/d/1QuLukGF20Q_waEevLx5qCsTDAQFyGf6N/view?usp=drive_link" download style="color: #f7d206">Click to download CV-Resume</a></p>
-          </div>
-        </div>
-      </div>
+  
+    <div class="mySlides fade">
+      
+      <img src="https://github.com/Rethar-yt/rethar-yt.github.io/blob/main/docs/slide/4.JPG?raw=true" style="width:100%">
+      <div class="text"><strong>Website development</strong></div>
     </div>
-    <div class="scroll-top-container">
-      <a id="scroll-top-button" href="#top">
-        <img src="https://raw.githubusercontent.com/Rethar-yt/rethar-yt.github.io/d9f01d960264aaf3de7f62d6de572b9b84375fd4/docs/top.png" alt="Scroll Top">
+  
+    <div class="mySlides fade">
+      
+      <img src="https://github.com/Rethar-yt/rethar-yt.github.io/blob/main/docs/slide/4.JPG?raw=true" style="width:100%">
+      <div class="text"><strong>Database Construction</strong></div>
+    </div>
+  
+    <!-- Next & previous (buttons) -->
+    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+    <a class="next" onclick="plusSlides(1)">&#10095;</a>
+  </div>
+  <br>
+  
+  <!-- The dots below slide -->
+  <div style="text-align:center">
+    <span class="dot" onclick="currentSlide(1)"></span>
+    <span class="dot" onclick="currentSlide(2)"></span>
+    <span class="dot" onclick="currentSlide(3)"></span>
+  </div>
+
+  <div class="welcome-section">
+    <div class="welcome-message text-box">
+      <h2>Hi, I'm <span style="color: #263849;">Rethar</span>.</h2>
+      <h3>A skilled and versatile Software Developer with expertise in Python, web development, and database management.</h3>
+      <p>With a strong background in these areas, I offer professional solutions to meet your unique project requirements.</p>
+      <p><strong>My services include:</strong></p>
+      <ol>
+        <li>Website development and design using modern technologies and frameworks</li>
+        <li>Creating and maintaining efficient and secure databases</li>
+        <li>Building custom web applications tailored to your specific needs</li>
+        <li>Automating tasks and processes with Python programming</li>
+        <li>Graphic Design and more...</li>
+      </ol>
+      <p>As a freelancer, I am committed to delivering high-quality results and exceeding client expectations. I have successfully completed numerous projects, demonstrating my ability to meet deadlines and produce exceptional work.</p>
+      <p>I take pride in staying up-to-date with the latest industry trends and best practices, ensuring that the solutions I provide are both innovative and reliable.</p>
+      <p>Whether you need a complete website, a database solution, or a Python program, I am here to help you bring your ideas to life.</p>
+      <p>Feel free to explore my portfolio to see examples of my previous work, and don't hesitate to get in touch to discuss your project requirements or ask any questions. I look forward to collaborating with you!</p>
+    </div>
+  </div>
+
+</body>
+<footer>
+  <div class="row primary">
+    <div class="column about">
+  
+    <h3>
+      <img src="https://raw.githubusercontent.com/Rethar-yt/rethar-yt.github.io/6c141a7abd8a6cc20962242dbfa3ca5d4dbc5f71/docs/NeptuneLabs.png" class="footer-logo">
+    </h3>
+  
+     <p>
+      Solutions Designed with Code, Crafted for Success.
+    </p>
+  
+    <div class="social">
+      <i class="github">
+        <a href="https://github.com/Rethar-yt"><img src="https://raw.githubusercontent.com/Rethar-yt/rethar-yt.github.io/5a6ea6cc55ab157dee998a45950a9c312af2ac09/docs/social%20icons/github.png"></a>
+      </i>
+      <i class="linkdn">
+        <a href="https://za.linkedin.com/in/rethar-osman-abdullah"> <img src="https://raw.githubusercontent.com/Rethar-yt/rethar-yt.github.io/5a6ea6cc55ab157dee998a45950a9c312af2ac09/docs/social%20icons/linkdn.png"></a>
+      </i>
+    </div>
+  </div>
+  
+  <div class="column links">
+  <p>Quick Links</p>
+  
+   <ul>
+  
+    <li>
+     <a href="faq.html">F.A.Q</a>
+    </li>
+    <li>
+     <a href="terms.html">Terms Of Service</a>
+    </li>
+    <li>
+     <a href="cv.html">CV-Resume</a>
+    </li>
+   </ul>
+  
+  </div>
+  
+  <div class="column subscribe">
+   <p>Credentials & Contact Info</p>
+    <div>
+      <a href="https://drive.google.com/file/d/1kAN5RwTN3h11BEovRnXhhFSDSbUI4CbL/view?usp=sharing">
+        <button>Resume PDF</button>
       </a>      
+     
+     <button>
+      <a href="mailto:retharyt@gmail.com">Send Email</a>
+    </button>
+    
     </div>
-    <footer>
-      <div class="tech-logos">
-        <img src="https://raw.githubusercontent.com/Rethar-yt/rethar-yt.github.io/6a75fe065d7a1a7b6d90fd921fd92f82158e5eb6/docs/tech%20logos.png">
-      </div>
-      <div class="footer-container">
-        <p>&copy; 2023 ROA Designs. Powered by Github</p>
-      </div>
-    </footer>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha2/js/bootstrap.bundle.min.js"></script>
+  
+  </div>
+  
+  </div>
+  
+  <div class="row copyright">
+    <div class="footer-menu">
+  
+    <a href="index.html">Home</a>
+    <a href="about.html">About</a>
+    <a href="services.html">Services</a>
+    <a href="projects.html">Projects</a>
+    <a href="contact.html">Contact</a>
+    </div>
+     <p>Copyright &copy; 2023 NeptuneLabs by ROA</p>
+  </div>
+  </footer>
     <script src="script.js"></script>
     <script src="script2.js"></script>
-  </body>
 </html>
