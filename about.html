@@ -1,61 +1,173 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <title>About Me</title>
+
+<!--Hamburger-menu/start-->
+<input type="checkbox" id="navcheck">
+<div class="nav-btn">
+    <label htmlfor="navcheck">
+        <span></span>
+        <span></span>
+        <span></span>
+    </label>
+</div>
+<!--Hamburger-menu/end-->
+
+<!--Header start-->
+<header class="header">
+  <title>NeptuneLabs-About</title>
     <link rel="stylesheet" href="styles.css">
+    <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  </head>
-  <body>
-    <nav>
-      <img class="logo" src="https://raw.githubusercontent.com/Rethar-yt/rethar-yt.github.io/a8610eb602030df39896274658438b93ce048f01/docs/logoalt2.png" alt="logo">
-      <div class="hamburger-menu">
-        <div class="line"></div>
-        <div class="line"></div>
-        <div class="line"></div>
-      </div>
-      <ul>
-        <li><a href="index.html">HOME</a></li>
-        <li><a href="about.html">ABOUT</a></li>
-        <li><a href="projects.html">PROJECTS</a></li>
-        <li><a href="contact.html">CONTACT</a></li>
-      </ul>
+    <nav class="navbar">
+        <!--Logo-->
+        <h1>
+          <img src="https://raw.githubusercontent.com/Rethar-yt/rethar-yt.github.io/6c141a7abd8a6cc20962242dbfa3ca5d4dbc5f71/docs/NeptuneLabs.png" class="nav-logo">
+        </h1>
+        <!--Logo-->
+        <!--Nav/Navigation bar-->
+        <ul class="nav-menu">
+            <li class="nav-item">
+                <a href="index.html" class="nav-link">Home</a>
+            </li>
+            <li class="nav-item">
+                <a href="about.html" class="nav-link">About</a>
+            </li>
+            <li class="nav-item">
+                <a href="services.html" class="nav-link">Services</a>
+            </li>
+            <li class="nav-item">
+              <a href="Projects.html" class="nav-link">Projects</a>
+          </li>
+            <li class="nav-item">
+                <a href="Contact.html" class="nav-link">Contact</a>
+            </li>
+        </ul>
+        <!--Nav/Navigation bar-->
     </nav>
-    <div class="image-section">
-      <img src="https://github.com/Rethar-yt/rethar-yt.github.io/blob/main/docs/converted.gif?raw=true">
+</header>
+<!--Header Start-->
+<!--Backdrop Start (mobile menu only)-->
+<div class="backdrop"></div>
+<!--Backdrop end (mobile menu only)-->
+<body>
+  <div class="slideshow-container">
+
+    <!-- Full-width images with number & caption/text -->
+    <div class="mySlides fade">
+      
+      <img src="https://github.com/Rethar-yt/rethar-yt.github.io/blob/main/docs/slide/4.JPG?raw=true" style="width:100%">
+      <div class="text"><strong>Python Programming</strong></div>
     </div>
-    <div class="container">
-      <div class="welcome-section">
-        <div class="welcome-message text-box">
-          <h2>My <span style="color: #14b492;">Journey</span>.</h2>
-          <p>I am a Software Developer with a passion for technology and innovation. What first drew me to the world of technology was the transformative impact it has on everyday life. From the way we communicate to the way we travel, technology has changed the game in so many ways.</p>
-          <p>One particular area of interest for me has been the evolution of transportation. I was fascinated by the way Uber revolutionized the industry that I was already in with their e-hailing platform. It was amazing to see how a simple app could completely transform the way we got around.</p>
-          <p>As I delved deeper into the world of technology, I realized that I wanted to be a part of this kind of innovation. That's why I decided to pursue a career in software engineering. I wanted to be able to use my skills to create innovative solutions that could make people's lives easier and more efficient.</p>
-          <p>To help me achieve my goal of becoming a software engineer, I focused on building a strong foundation in Python, which is widely used in the industry. I completed and enrolled in several programs on Coursera, including "Python for Everybody" and "Meta Backend Development," which provided me with a solid understanding of the language and its applications.</p>
-          <p>Through these courses, I gained skills in software engineering principles such as data structures and algorithms, web development, database management, and version control using Git. I also learned how to develop and deploy applications using Python frameworks such as Django and Flask.</p>
-          <p>I am also a self-taught graphic designer with expertise in CorelDRAW and a strong background in creating visually appealing portfolios and design projects. My passion for design and commitment to delivering high-quality work drive me to constantly refine my skills and explore new creative possibilities.</p>
-          <p>I am excited about the possibilities that technology holds and I am thrilled to be a part of the software engineering community. I am committed to using my skills and knowledge to create innovative solutions that will make a real difference in people's lives.</p>
-          <div class="cv-icon">  
-            <a href="https://drive.google.com/file/d/1yzaBjP_NkzK9py6kF1OXpYTmFV0SUe9S/view?usp=sharing" download><img src="https://github.com/Rethar-yt/rethar-yt.github.io/blob/main/docs/cv_icon.png?raw=true" alt="CV"></a>
-            <p><a href="https://drive.google.com/file/d/1QuLukGF20Q_waEevLx5qCsTDAQFyGf6N/view?usp=drive_link" download style="color: #f7d206">Click to download CV-Resume</a></p>
-          </div>
-        </div>
-      </div>
+  
+    <div class="mySlides fade">
+      
+      <img src="https://github.com/Rethar-yt/rethar-yt.github.io/blob/main/docs/slide/4.JPG?raw=true" style="width:100%">
+      <div class="text"><strong>Website development</strong></div>
     </div>
-    <div class="scroll-top-container">
-      <a id="scroll-top-button" href="#top">
-        <img src="https://raw.githubusercontent.com/Rethar-yt/rethar-yt.github.io/d9f01d960264aaf3de7f62d6de572b9b84375fd4/docs/top.png" alt="Scroll Top">
-      </a>
+  
+    <div class="mySlides fade">
+      
+      <img src="https://github.com/Rethar-yt/rethar-yt.github.io/blob/main/docs/slide/4.JPG?raw=true" style="width:100%">
+      <div class="text"><strong>Database Construction</strong></div>
     </div>
-    <footer>
-      <div class="tech-logos">
-        <img src="https://raw.githubusercontent.com/Rethar-yt/rethar-yt.github.io/6a75fe065d7a1a7b6d90fd921fd92f82158e5eb6/docs/tech%20logos.png">
-      </div>
-      <div class="footer-container">
-        <p>&copy; 2023 ROA Designs. Powered by Github</p>
-      </div>
-    </footer>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha2/js/bootstrap.bundle.min.js"></script>
+  
+    <!-- Next & previous (buttons) -->
+    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+    <a class="next" onclick="plusSlides(1)">&#10095;</a>
+  </div>
+  <br>
+  
+  <!-- The dots below slide -->
+  <div style="text-align:center">
+    <span class="dot" onclick="currentSlide(1)"></span>
+    <span class="dot" onclick="currentSlide(2)"></span>
+    <span class="dot" onclick="currentSlide(3)"></span>
+  </div>
+
+  <div class="welcome-section">
+    <div class="welcome-message text-box">
+      <h2>My <span style="color: #263849;">Journey</span>.</h2>
+      <p>I am a Software Developer with a passion for technology and innovation. What first drew me to the world of technology was the transformative impact it has on everyday life. From the way we communicate to the way we travel, technology has changed the game in so many ways.</p>
+      <p>One particular area of interest for me has been the evolution of transportation. I was fascinated by the way the taxi industry was revolutionized by technology. It was amazing to see how a simple app could completely transform the way we got around.</p>
+      <p>As I delved deeper into the world of technology, I realized that I wanted to be a part of this kind of innovation. That's why I decided to pursue a career in software engineering. I wanted to be able to use my skills to create innovative solutions that could make people's lives easier and more efficient.</p>
+      <p>To help me achieve my goal of becoming a software engineer, I focused on building a strong foundation in Python, which is widely used in the industry. I completed and enrolled in several programs including a Python specialization at The University of Michigan and a proffessional cerification in back-end development at Meta which provided me with a solid understanding of coding languages and its applications.</p>
+      <p>Through these courses, I gained skills in software engineering principles such as data structures and algorithms, web development, database management, and version control using Git. I also learned how to develop and deploy applications using Python frameworks such as Django and Flask.</p>
+      <p>I am also a self-taught graphic designer with expertise in CorelDRAW and a strong background in creating visually appealing portfolios and design projects. My passion for design and commitment to delivering high-quality work drive me to constantly refine my skills and explore new creative possibilities.</p>
+      <p><strong>Neptunelabs</strong> was born out of my desire to combine my skills in software development and graphic design to provide innovative solutions to clients. It has been a rewarding journey so far, and I am excited to continue helping individuals and businesses bring their ideas to life.</p>
+      <p>I am committed to staying up-to-date with the latest industry trends and best practices, ensuring that the solutions I provide are both innovative and reliable. Whether you need a complete website, a database solution, or a Python program, I am here to help you bring your ideas to life.</p>
+    </div>
+  </div>
+
+</body>
+<footer>
+  <div class="row primary">
+    <div class="column about">
+  
+    <h3>
+      <img src="https://raw.githubusercontent.com/Rethar-yt/rethar-yt.github.io/6c141a7abd8a6cc20962242dbfa3ca5d4dbc5f71/docs/NeptuneLabs.png" class="footer-logo">
+    </h3>
+  
+     <p>
+      Solutions Designed with Code, Crafted for Success.
+    </p>
+  
+    <div class="social">
+      <i class="github">
+        <a href="https://github.com/Rethar-yt"><img src="https://raw.githubusercontent.com/Rethar-yt/rethar-yt.github.io/5a6ea6cc55ab157dee998a45950a9c312af2ac09/docs/social%20icons/github.png"></a>
+      </i>
+      <i class="linkdn">
+        <a href="https://za.linkedin.com/in/rethar-osman-abdullah"> <img src="https://raw.githubusercontent.com/Rethar-yt/rethar-yt.github.io/5a6ea6cc55ab157dee998a45950a9c312af2ac09/docs/social%20icons/linkdn.png"></a>
+      </i>
+    </div>
+  </div>
+  
+  <div class="column links">
+  <p>Quick Links</p>
+  
+   <ul>
+  
+    <li>
+     <a href="faq.html">F.A.Q</a>
+    </li>
+    <li>
+     <a href="terms.html">Terms Of Service</a>
+    </li>
+    <li>
+     <a href="cv.html">CV-Resume</a>
+    </li>
+   </ul>
+  
+  </div>
+  
+  <div class="column subscribe">
+   <p>Credentials & Contact Info</p>
+    <div>
+      <a href="https://drive.google.com/file/d/1kAN5RwTN3h11BEovRnXhhFSDSbUI4CbL/view?usp=sharing">
+        <button>Resume PDF</button>
+      </a>      
+     
+     <button>
+      <a href="mailto:retharyt@gmail.com">Send Email</a>
+    </button>
+    
+    </div>
+  
+  </div>
+  
+  </div>
+  
+  <div class="row copyright">
+    <div class="footer-menu">
+  
+    <a href="index.html">Home</a>
+    <a href="about.html">About</a>
+    <a href="services.html">Services</a>
+    <a href="projects.html">Projects</a>
+    <a href="contact.html">Contact</a>
+    </div>
+     <p>Copyright &copy; 2023 NeptuneLabs by ROA</p>
+  </div>
+  </footer>
     <script src="script.js"></script>
     <script src="script2.js"></script>
-  </body>
 </html>
