@@ -152,6 +152,11 @@ body {
       height: calc(100% - 72px);
       z-index: 1;
   }
+  .welcome-section img {
+    max-width: 100%;
+    height: auto;
+  }
+  
 }
 
 /* Slideshow container */
@@ -462,6 +467,12 @@ div.social {
   .text {
     font-size: 25px;
   }
+
+  .welcome-section img {
+    max-width: 100%;
+    height: auto;
+  }
+  
 
 }
 
