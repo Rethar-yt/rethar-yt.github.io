@@ -36,7 +36,7 @@ body {
   align-items: center;
   justify-content: space-between;
   min-height: 72px;
-  background-color: #263849;
+  background-image: linear-gradient(to right, #263849, #0e3558);
 }
 .navbar h1 a,
 .navbar ul li a {
@@ -54,7 +54,7 @@ body {
 }
 .navbar ul li a:hover,
 .navbar ul li a:focus {
-  color: orange;
+  color: rgb(58, 170, 109);
 }
 
 .nav-logo {
@@ -142,7 +142,7 @@ body {
       top: 72px;
       left: 0;
       right: 0;
-      background-color: black;
+      background-image: linear-gradient(to right, rgb(7, 1, 20), #081f33)
   }
   input#navcheck:checked ~ .backdrop {
       position: absolute;
@@ -306,7 +306,7 @@ hr {
 }
 
 footer {
-  background-color: #263849;
+  background-image: linear-gradient(to right, #263849, #0e3558);
   color: white;
   font-size: 16px;
 }
@@ -378,7 +378,7 @@ button {
   width: 100%;
   border-radius: 5px;
   margin-bottom: 5px;
-  background-color: #c7940a;
+  background-color: rgb(58, 170, 109);
   color: #ffffff;
   margin-bottom: 10px;
   margin-top: 10px;
@@ -393,7 +393,7 @@ button a {
 button:active {
   /* Add active (clicked) styles */
   background-color: white;
-  color: orange;
+  color: rgb(58, 170, 109);
 }
 
 
@@ -412,7 +412,7 @@ div.social {
 
 .copyright {
   padding: 30px;
-  background-color: black;
+  background-color: rgb(7, 1, 20);
 }
 .footer-menu{
   float: left;
@@ -427,18 +427,18 @@ div.social {
 }
 
 .footer-menu a:hover{
-  color: orange;
+  color: rgb(58, 170, 109);
 }
 .copyright p {
   font-size: 0.9em;
   text-align: right;
   margin-bottom: -15px;
-  color: orange;
+  color: rgb(58, 170, 109);
   text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
 }
 
 .column.links a{
-  color: orange;
+  color: rgb(58, 170, 109);
   text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
 }
 
