@@ -54,7 +54,7 @@ body {
 }
 .navbar ul li a:hover,
 .navbar ul li a:focus {
-  color: rgb(58, 170, 109);
+  color: #04a5aa;
 }
 
 .nav-logo {
@@ -379,7 +379,7 @@ button {
   width: 100%;
   border-radius: 5px;
   margin-bottom: 5px;
-  background-color: rgb(58, 170, 109);
+  background-color: #048c91;
   color: #ffffff;
   margin-bottom: 10px;
   margin-top: 10px;
@@ -428,18 +428,18 @@ div.social {
 }
 
 .footer-menu a:hover{
-  color: rgb(58, 170, 109);
+  color: #04a5aa;
 }
 .copyright p {
   font-size: 0.9em;
   text-align: right;
   margin-bottom: -15px;
-  color: rgb(58, 170, 109);
+  color: #04a5aa;
   text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
 }
 
 .column.links a{
-  color: rgb(58, 170, 109);
+  color: #04a5aa;
   text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
 }
 
@@ -460,13 +460,13 @@ div.social {
 }
 
 .scroll-top:hover {
-  background-color: #04AA6D;
+  background-color: #04a5aa;
   color: white;
 }
 
 .scroll-top:focus,
 .scroll-top:active {
-  background-color: #04AA6D;
+  background-color: #04a5aa;
   color: white;
 }
 
