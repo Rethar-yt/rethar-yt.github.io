@@ -19,7 +19,8 @@ body {
   min-height: 100vh;
   background-image: url("https://github.com/Rethar-yt/rethar-yt.github.io/blob/main/docs/Page%20Background%20Imgs/wallpaper_tech3.jpg?raw=true");
   background-size: cover;
-  background-repeat: repeat-x;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
 }
 
 .header {
