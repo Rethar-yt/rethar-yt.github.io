@@ -491,20 +491,22 @@ div.social {
   }
   .copyright p {
     margin-top: 20px;
-    text-align: center;
+    text-align: left;
+    margin-left: 4px;
   }
 
   .footer-menu a {
-    margin-left: 5px;
+    margin-left: 0px;
   }
 
   .text {
     font-size: 25px;
   }
 
-  .welcome-section img {
+  .welcome-section {
     max-width: 100%;
     height: auto;
+    text-align: left;
   }
   
 
