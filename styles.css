@@ -43,7 +43,7 @@ body {
 .navbar ul li a {
   color: #fff;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
-  font-size: 15px;
+  font-size: 14px;
   
 }
 .navbar ul {
@@ -59,7 +59,7 @@ body {
 }
 
 .nav-logo {
-  width: 50%;
+  width: 40%;
   height: auto;
   padding-top: 20px;
   padding-bottom: 20px;
@@ -259,7 +259,7 @@ body {
 }
 
 .welcome-message h2 {
-  font-size: 30px;
+  font-size: 25px;
   padding: 5px;
   
 }
@@ -273,7 +273,7 @@ body {
 .welcome-message p,
 .welcome-message ul,
 .welcome-message li {
-  font-size: 15px;
+  font-size: 14px;
   padding: 5px;
 }
 
@@ -310,7 +310,7 @@ hr {
 footer {
   background-image: linear-gradient(to right, #263849, #0e3558);
   color: white;
-  font-size: 16px;
+  font-size: 15px;
 }
 footer * {
   font-family: "Poppins", sans-serif;
@@ -337,7 +337,7 @@ footer * {
   width: 100%;
   text-align: left;
   color: white;
-  font-size: 1.4em;
+  font-size: 15px;
   white-space: nowrap;
   text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
 }
@@ -375,7 +375,7 @@ footer * {
 }
 
 button {
-  font-size: 1em;
+  font-size: 14px;
   padding: 15px;
   width: 100%;
   border-radius: 5px;
@@ -426,13 +426,14 @@ div.social {
   padding: 6px;
   text-decoration: none;
   text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  font-size: 14px;
 }
 
 .footer-menu a:hover{
   color: #04a5aa;
 }
 .copyright p {
-  font-size: 0.9em;
+  font-size: 14px;
   text-align: right;
   margin-bottom: -15px;
   color: #04a5aa;
