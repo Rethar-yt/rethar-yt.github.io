@@ -23,6 +23,19 @@ body {
   background-attachment: fixed;
 }
 
+.marquee {
+  background-image: linear-gradient(to right, #030303, #060050, #030303);
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: white;
+  font-size: 14px;
+  padding: 5px;
+}
+
+.div {
+  background-image: linear-gradient(to right, #030303, #060050, #030303);
+  padding: 3px;
+}
+
 .header {
   background: #303030;
   color: #fff;
@@ -37,13 +50,13 @@ body {
   align-items: center;
   justify-content: space-between;
   min-height: 72px;
-  background-image: linear-gradient(to right, #263849, #0e3558);
+  background-image: linear-gradient(to right, #160a5a, #02233f);
 }
 .navbar h1 a,
 .navbar ul li a {
   color: #fff;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
-  font-size: 14px;
+  font-size: 10px;
   
 }
 .navbar ul {
@@ -166,6 +179,7 @@ body {
   position: relative;
   margin: auto;
   padding-top: 0px;
+  margin-bottom: -4px;
 }
 
 /* Hide the images by default */
@@ -308,7 +322,7 @@ hr {
 }
 
 footer {
-  background-image: linear-gradient(to right, #263849, #0e3558);
+  background-image: linear-gradient(to right, #160a5a, #02233f);
   color: white;
   font-size: 15px;
 }
@@ -380,7 +394,7 @@ button {
   width: 100%;
   border-radius: 5px;
   margin-bottom: 5px;
-  background-color: #048c91;
+  background-image: linear-gradient(to right, #048c91, #0761d8);
   color: #ffffff;
   margin-bottom: 10px;
   margin-top: 10px;
