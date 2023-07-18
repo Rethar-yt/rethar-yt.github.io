@@ -126,8 +126,8 @@ body {
   #navcheck {
       opacity: 0;
       position: fixed;
-      top: 0;
-      right: 0;
+      top: 30px;
+      right: 0px;
       width: 72px;
       height: 72px;
       z-index: 999;
