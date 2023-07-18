@@ -33,7 +33,7 @@ body {
 
 .div {
   background-image: linear-gradient(to right, #030303, #060050, #030303);
-  padding: 3px;
+  padding: 5px;
 }
 
 .header {
@@ -87,7 +87,7 @@ body {
 .nav-btn {
     position: absolute;
     right: 24px;
-    top: 26px;
+    top: 55px;
     z-index: 99;
 }
 .nav-btn label span {
@@ -529,10 +529,15 @@ div.social {
     background-attachment: fixed;
   }
 
+  .nav-logo {
+    width: 60%;
+    height: auto;
+  }
+
 }
 
 .footer-logo {
-  width: 50%;
+  width: 70%;
   height: auto;
   padding-bottom: 10px;
 }
