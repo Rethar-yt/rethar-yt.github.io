@@ -1,27 +1,44 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://roa-dev.africa/index.html</loc>
+    <loc>https://www.neptunelabs.co.za/index.html</loc>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
   </url>
   <url>
-    <loc>https://roa-dev.africa/about.html</loc>
+    <loc>https://www.neptunelabs.co.za/about.html</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://roa-dev.africa/services.html</loc>
+    <loc>https://www.neptunelabs.co.za/terms.html</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://roa-dev.africa/projects.html</loc>
+    <loc>https://www.neptunelabs.co.za/faq.html</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://roa-dev.africa/contact.html</loc>
+    <loc>https://www.neptunelabs.co.za/website.html</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://roa-dev.africa/faq.html</loc>
+    <loc>https://www.neptunelabs.co.za/graphic.html</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://roa-dev.africa/terms.html</loc>
+    <loc>https://www.neptunelabs.co.za/software.html</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
   </url>
-  <url>
-    <loc>https://roa-dev.africa/cv.html</loc>
+    <url>
+    <loc>https://www.neptunelabs.co.za/contact.html</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
   </url>
+ 
 </urlset>
